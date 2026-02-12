@@ -1,0 +1,164 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #007BFF;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #edf2f7;
+}
+
+.hero h1 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0.5rem auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.feature {
+  flex: 1 1 250px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.feature img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.feature h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #007BFF;
+}
+
+.help {
+  padding: 2rem;
+  background-color: #f7fafc;
+  text-align: center;
+}
+
+.help h2 {
+  margin-top: 0;
+}
+
+.help-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.help-option {
+  flex: 1 1 250px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.help-option h3 {
+  margin-top: 0;
+  color: #007BFF;
+}
+
+.listings {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.listings ul {
+  list-style: none;
+  padding: 0;
+}
+
+.listings li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  padding: 1rem 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+}
+
+/* General page container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
